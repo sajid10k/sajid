@@ -1,3 +1,17 @@
 # sajid
-git clone https://github.com/sajid10k/sajid/blob/main/sajid.py
-cd 
+
+rm -rf sajid
+
+apt update && apt upgrade
+
+pkg install python
+
+pkg install git
+
+git clone https://github.com/sajid10k/sajid.git
+
+cd sajid
+
+python sajid.py
+
+======================enjoy==================
